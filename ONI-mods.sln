@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ethanol_vapor_vent", "Ethanol_vapor_vent\Ethanol_vapor_vent.csproj", "{CD7462C2-46D6-41A8-86B0-7D6FEF463646}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotEthanol", "HotEthanol\HotEthanol.csproj", "{CD7462C2-46D6-41A8-86B0-7D6FEF463646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

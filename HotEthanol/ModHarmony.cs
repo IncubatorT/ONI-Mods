@@ -1,24 +1,25 @@
 using HarmonyLib;
 using KMod;
 
-namespace Ethanol_vapor_vent
+namespace HotEthanol
 {
 	public class ModHarmony : UserMod2
 	{
-		/*[HarmonyPatch(typeof(Db))]
+		[HarmonyPatch(typeof(Db))]
 		[HarmonyPatch("Initialize")]
 		public class Db_Initialize_Patch
 		{
 			public static void Prefix()
 			{
-				Debug.Log("I execute before Db.Initialize!");
+				// Debug.Log("I execute before Db.Initialize!");
 			}
 
 			public static void Postfix()
 			{
-				Debug.Log("I execute after Db.Initialize!");
+				// Debug.Log("I execute after Db.Initialize!");
+				// ModUtil.RegisterForTranslation(typeof(STRINGS.CREATURES));
 			}
-		}*/
+		}
 		
 		public override void OnLoad(Harmony harmony)
 		{

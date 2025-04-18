@@ -1,6 +1,6 @@
 ﻿using STRINGS;
 
-namespace Ethanol_vapor_vent.STRINGS;
+namespace HotEthanol.STRINGS;
 
 public class CREATURES
 {
