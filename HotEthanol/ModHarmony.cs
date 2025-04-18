@@ -5,7 +5,7 @@ namespace HotEthanol
 {
 	public class ModHarmony : UserMod2
 	{
-		[HarmonyPatch(typeof(Db))]
+		/*[HarmonyPatch(typeof(Db))]
 		[HarmonyPatch("Initialize")]
 		public class Db_Initialize_Patch
 		{
@@ -19,7 +19,7 @@ namespace HotEthanol
 				// Debug.Log("I execute after Db.Initialize!");
 				// ModUtil.RegisterForTranslation(typeof(STRINGS.CREATURES));
 			}
-		}
+		}*/
 		
 		public override void OnLoad(Harmony harmony)
 		{

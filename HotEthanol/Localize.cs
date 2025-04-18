@@ -5,30 +5,8 @@ using HotEthanol.STRINGS;
 
 namespace HotEthanol;
 
-public class Local
+public class Localize
 {
-    /*[HarmonyPatch(typeof(GlobalAssets), "OnPrefabInit")]
-    public class GlobalAssets_Patch
-    {
-        public static void Postfix()
-        {
-            // LocString.CreateLocStringKeys(typeof ());
-            Strings.Add($"STRINGS.CREATURES.SPECIES.GEYSER.{GeyserEthanol.HotEthanol.ToUpper()}.NAME", CREATURES.HOT_ETHANOL.NAME);
-            Strings.Add($"STRINGS.CREATURES.SPECIES.GEYSER.{GeyserEthanol.HotEthanol.ToUpper()}.DESC", CREATURES.HOT_ETHANOL.DESC);
-            // ModUtil.RegisterForTranslation(typeof(CREATURES));
-        }
-    }*/
-    
-    [HarmonyPatch(typeof(LocString), "CreateLocStringKeys")]
-    public class LocString_Patch
-    {
-        public static void Prefix()
-        {
-            Strings.Add($"STRINGS.CREATURES.SPECIES.GEYSER.{GeyserEthanol.HotEthanol.ToUpper()}.NAME", CREATURES.HOT_ETHANOL.NAME);
-            Strings.Add($"STRINGS.CREATURES.SPECIES.GEYSER.{GeyserEthanol.HotEthanol.ToUpper()}.DESC", CREATURES.HOT_ETHANOL.DESC); 
-        }
-    }
-    
     [HarmonyPatch(typeof (Localization), "Initialize")]
     public class Localization_Initialize_Patch
     {
@@ -46,18 +24,18 @@ public class Local
                 Dictionary<string, string> dictionary2 = Localization.LoadStringsFile(path, false);
                 TextLoad(dictionary2);
                 Localization.OverloadStrings(dictionary2);
-                
-                Debug.Log((object) ("Update language: " + str2));
+                Debug.Log("Load language: " + str2);
             }
             else
             {
                 TextLoad(dictionary1);
                 Localization.OverloadStrings(dictionary1);
-                Debug.Log("xxxxxxxxxxxxxxxxxxxxxxxxx");
+                Debug.LogWarning("The localization file is missing or failed to load!");
             }
         }
     }
 
+    
     private static void TextLoad(Dictionary<string, string> locDic)
     {
         foreach (var keyValuePair in locDic)
