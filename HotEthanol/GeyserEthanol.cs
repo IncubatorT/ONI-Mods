@@ -12,7 +12,7 @@ public class GeyserEthanol
     {
         private static void Postfix(List<GeyserGenericConfig.GeyserPrefabParams> __result)
         {
-            __result.Add(new GeyserGenericConfig.GeyserPrefabParams("geyserliquidethanolchilled_kanim", 4, 2, new GeyserConfigurator.GeyserType(HotEthanol, SimHashes.Ethanol, GeyserConfigurator.GeyserShape.Liquid, 263.15f, 1000f, 2000f, 500f, null), true));
+            __result.Add(new GeyserGenericConfig.GeyserPrefabParams("geyser_hot_ethanol_kanim", 2, 4, new GeyserConfigurator.GeyserType(HotEthanol, SimHashes.EthanolGas, GeyserConfigurator.GeyserShape.Gas, 773.15f, 70f, 140f, 5f, null), true));
         }
     }
 }
