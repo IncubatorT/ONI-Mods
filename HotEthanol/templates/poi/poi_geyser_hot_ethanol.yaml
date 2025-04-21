@@ -1,4 +1,4 @@
-name: poi_Fossil_geyser_ethanol
+name: poi_geyser_hot_ethanol
 info:
   size:
     X: 20
@@ -1399,7 +1399,7 @@ otherEntities:
   - id: OldAge
   - id: Irrigation
   - id: Fertilization
-- id: GeyserGeneric_chilled_ethanol
+- id: GeyserGeneric_hot_ethanol
   location_y: 4
   element: Katairite
   temperature: 372.149994

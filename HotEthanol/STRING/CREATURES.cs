@@ -1,6 +1,6 @@
 ﻿using STRINGS;
 
-namespace HotEthanol.STRINGS;
+namespace HotEthanol.STRING;
 
 public class CREATURES
 {
