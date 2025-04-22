@@ -5,7 +5,7 @@ APIVersion: 2
 
 requiredDlcIds:
   - EXPANSION1_ID
-#  - DLC2_ID
+  - DLC2_ID
 #  - DLC3_ID
 
 forbiddenDlcIds:

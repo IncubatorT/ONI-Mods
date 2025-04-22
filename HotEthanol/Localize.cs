@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 using HarmonyLib;
-using HotEthanol.STRING;
+using HotEthanol.STRINGS;
 
 
 namespace HotEthanol;
