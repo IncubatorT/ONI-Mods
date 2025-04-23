@@ -214,6 +214,8 @@ worldTemplateRules:
     priority: 160
     allowedCellsFilter:
       - command: Replace
+        zoneTypes: [ MagmaCore ]
+      - command: Replace
         tagcommand: DistanceFromTag
         tag: AtDepths
         minDistance: 0

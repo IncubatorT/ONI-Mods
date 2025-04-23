@@ -216,16 +216,16 @@ worldTemplateRules:
   - names:
     - poi/magma/geyser_hot_ethanol_with_iron
     - geysers/hot_ethanol
-    listRule: GuaranteeOne
-    priority: 80
+    listRule: TryOne
+    priority: 200
+    sortOrder: 500
     allowedCellsFilter:
       - command: Replace
-        tagcommand: DistanceFromTag
-        tag: AtDepths
-        minDistance: 1
-        maxDistance: 1
+        zoneTypes: [ MagmaCore ]
       - command: IntersectWith
         zoneTypes: [ MagmaCore ]
+      - command: UnionWith
+        zoneTypes: [ MagmaCore ]       
   # Curated Water geysers
   - names: 
     - geysers/filthy_water

@@ -222,8 +222,8 @@ worldTemplateRules:
   - names:
     - poi/magma/geyser_hot_ethanol_with_iron
     - geysers/hot_ethanol
-    listRule: GuaranteeOne
-    priority: 80
+    listRule: TryOne
+    priority: 170
     allowedCellsFilter:
       - command: Replace
         zoneTypes: [ MagmaCore ]

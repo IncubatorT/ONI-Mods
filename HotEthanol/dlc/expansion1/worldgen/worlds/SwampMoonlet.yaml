@@ -194,10 +194,13 @@ worldTemplateRules:
     priority: 160
     allowedCellsFilter:
       - command: Replace
+        zoneTypes: [ MagmaCore ]
+      - command: Replace
         tagcommand: DistanceFromTag
         tag: AtDepths
         minDistance: 0
         maxDistance: 1
+
   # Geysers
   - names:
     - expansion1::poi/poi_geyser_magma

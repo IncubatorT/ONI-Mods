@@ -8,7 +8,7 @@ asteroidIcon: asteroid_marshy_moonlet_kanim
 
 worldTraitScale: 0.06 # Adjust with worldSize. Traits are tuned to base game world sizes.
 worldsize:
-  X: 64
+  X: 72
   Y: 96
 layoutMethod: PowerTree
 

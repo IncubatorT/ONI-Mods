@@ -185,16 +185,16 @@ worldTemplateRules:
   - names:
     - poi/magma/geyser_hot_ethanol_with_iron
     - geysers/hot_ethanol
-    listRule: GuaranteeOne
+    listRule: TryOne
     priority: 160
     allowedCellsFilter:
       - command: Replace
+        zoneTypes: [ MagmaCore ]
+      - command: Replace
         tagcommand: DistanceFromTag
         tag: AtDepths
-        minDistance: 1
+        minDistance: 0
         maxDistance: 1
-      - command: IntersectWith
-        zoneTypes: [ MagmaCore ]
   # Geysers
   - names:
     - expansion1::poi/poi_geyser_magma

@@ -194,16 +194,16 @@ worldTemplateRules:
   - names:
     - poi/magma/geyser_hot_ethanol_with_iron
     - geysers/hot_ethanol
-    listRule: GuaranteeOne
-    priority: 80
+    listRule: TryOne
+    priority: 160
     allowedCellsFilter:
+      - command: Replace
+        zoneTypes: [ MagmaCore ]
       - command: Replace
         tagcommand: DistanceFromTag
         tag: AtDepths
-        minDistance: 1
+        minDistance: 0
         maxDistance: 1
-      - command: IntersectWith
-        zoneTypes: [ MagmaCore ]
   # Curated geysers (no duplicates)
   - names: 
     #- geysers/big_volcano

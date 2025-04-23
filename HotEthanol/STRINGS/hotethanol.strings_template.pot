@@ -1,0 +1,15 @@
+msgid ""
+msgstr ""
+"Application: Oxygen Not Included"
+"POT Version: 2.0"
+
+#. HotEthanol.STRINGS.CREATURES.HOT_ETHANOL.DESC
+msgctxt "HotEthanol.STRINGS.CREATURES.HOT_ETHANOL.DESC"
+msgid "A highly pressurized vent that periodically erupts with scalding <link=\"ETHANOLGAS\">Ethanol Vapor</link>."
+msgstr ""
+
+#. HotEthanol.STRINGS.CREATURES.HOT_ETHANOL.NAME
+msgctxt "HotEthanol.STRINGS.CREATURES.HOT_ETHANOL.NAME"
+msgid "<link=\"GEYSERGENERICHOTETHANOL\">Hot Ethanol Vapor Vent</link>"
+msgstr ""
+
