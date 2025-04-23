@@ -23,3 +23,13 @@ msgstr "一处高压喷孔，定期喷出滚烫的<link=\"ETHANOLGAS\">乙醇蒸
 msgctxt "HotEthanol.STRINGS.CREATURES.HOT_ETHANOL.NAME"
 msgid "<link=\"GEYSERGENERICHOTETHANOL\">Hot Ethanol Vapor Vent</link>"
 msgstr "<link=\"GEYSERGENERICHOTETHANOL\">高温乙醇蒸气喷孔</link>"
+
+#. 
+msgctxt "Hot EthanolGas Vent"
+msgid "Hot EthanolGas Vent"
+msgstr "高温乙醇蒸气喷孔"
+
+#. 
+msgctxt "Adding Hot EthanolGas Vent"
+msgid "Adding Hot EthanolGas Vent"
+msgstr "添加高温乙醇蒸气喷孔"

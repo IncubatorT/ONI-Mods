@@ -5,7 +5,7 @@ msgstr ""
 "PO-Revision-Date: \n"
 "Last-Translator: QB\n"
 "Language-Team: \n"
-"Language: en\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,13 +18,14 @@ msgid ""
 "A highly pressurized vent that periodically erupts with scalding "
 "<link=\"ETHANOLGAS\">Ethanol Vapor</link>."
 msgstr ""
-"A highly pressurized vent that periodically erupts with scalding "
-"<link=\"ETHANOLGAS\">Ethanol Vapor</link>."
+"Воронка, находящаяся под высоким давлением и периодически выбрасывающая "
+"раскаленный <link=\"ETHANOLGAS\">парами этанола</link>."
 
 #. HotEthanol.STRINGS.CREATURES.HOT_ETHANOL.NAME
 msgctxt "HotEthanol.STRINGS.CREATURES.HOT_ETHANOL.NAME"
 msgid "<link=\"GEYSERGENERICHOTETHANOL\">Hot Ethanol Vapor Vent</link>"
-msgstr "<link=\"GEYSERGENERICHOTETHANOL\">Hot Ethanol Vapor Vent</link>"
+msgstr "<link=\"GEYSERGENERICHOTETHANOL\">Отвод паров горячего этанола</link>"
+
 
 #. 
 msgctxt "Hot EthanolGas Vent"
