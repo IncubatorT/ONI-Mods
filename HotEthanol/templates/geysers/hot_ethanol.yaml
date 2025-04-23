@@ -9,55 +9,36 @@ info:
 cells:
 - element: Obsidian
   mass: 1000
-  temperature: 242.384384
-  location_x: -1
-  location_y: 3
-- element: Obsidian
-  mass: 1000
-  temperature: 242.048782
-  location_y: 3
-- element: Granite
-  mass: 1840
-  temperature: 232.237167
-  location_x: 1
-  location_y: 3
-- element: Granite
-  mass: 1840
-  temperature: 232.338699
-  location_x: 2
-  location_y: 3
-- element: Obsidian
-  mass: 1000
-  temperature: 255.084503
+  temperature: 308.149994
   location_x: -2
   location_y: -2
 - element: Obsidian
   mass: 1000
-  temperature: 244.196152
+  temperature: 308.149994
   location_x: -1
   location_y: -2
 - element: Granite
   mass: 1840
-  temperature: 233.335434
+  temperature: 308.149994
   location_y: -2
 - element: Obsidian
   mass: 1000
-  temperature: 238.671204
+  temperature: 308.149994
   location_x: 1
   location_y: -2
 - element: Obsidian
   mass: 1000
-  temperature: 243.615967
+  temperature: 308.149994
   location_x: 2
   location_y: -2
 - element: Obsidian
   mass: 1000
-  temperature: 262.404572
+  temperature: 308.149994
   location_x: 3
   location_y: -2
 - element: Obsidian
   mass: 1000
-  temperature: 252.142776
+  temperature: 308.149994
   location_x: -2
   location_y: -1
 - element: Unobtanium
@@ -81,109 +62,128 @@ cells:
   location_y: -1
 - element: Dirt
   mass: 2202.9646
-  temperature: 293.019531
+  temperature: 293.009918
   location_x: 3
   location_y: -1
 - element: Granite
   mass: 1840
-  temperature: 237.900787
+  temperature: 308.149994
   location_x: -2
 - element: Obsidian
   mass: 1000
-  temperature: 242.440506
+  temperature: 308.149994
   location_x: -1
 - element: Obsidian
   mass: 1000
-  temperature: 264.036713
+  temperature: 308.149994
 - element: Granite
   mass: 1840
-  temperature: 233.893936
+  temperature: 308.149994
   location_x: 1
 - element: Granite
   mass: 1840
-  temperature: 233.990601
+  temperature: 308.149994
   location_x: 2
 - element: Obsidian
   mass: 1000
-  temperature: 262.778961
+  temperature: 308.059265
   location_x: 3
 - element: Obsidian
   mass: 1000
-  temperature: 244.260452
+  temperature: 308.149994
   location_x: -2
   location_y: 1
 - element: Granite
   mass: 1840
-  temperature: 233.408829
+  temperature: 308.149994
   location_x: -1
-  location_y: 1
-- element: Granite
-  mass: 1840
-  temperature: 233.987701
   location_y: 1
 - element: Obsidian
   mass: 1000
-  temperature: 239.193756
+  temperature: 308.149994
+  location_y: 1
+- element: Obsidian
+  mass: 1000
+  temperature: 308.149994
   location_x: 1
   location_y: 1
 - element: Obsidian
   mass: 1000
-  temperature: 240.322891
+  temperature: 308.149994
   location_x: 2
   location_y: 1
 - element: Obsidian
   mass: 1000
-  temperature: 254.035553
+  temperature: 308.149994
   location_x: 3
   location_y: 1
 - element: Granite
   mass: 1840
-  temperature: 237.96701
+  temperature: 308.149994
   location_x: -2
   location_y: 2
 - element: Granite
   mass: 1840
-  temperature: 235.428864
+  temperature: 308.149994
   location_x: -1
   location_y: 2
 - element: Granite
   mass: 1840
-  temperature: 235.950714
+  temperature: 308.149994
   location_y: 2
 - element: Obsidian
   mass: 1000
-  temperature: 247.826538
+  temperature: 308.149994
   location_x: 1
   location_y: 2
 - element: Granite
   mass: 1840
-  temperature: 236.338364
+  temperature: 308.149994
   location_x: 2
   location_y: 2
 - element: Granite
   mass: 1840
-  temperature: 239.083511
+  temperature: 308.149994
   location_x: 3
   location_y: 2
 - element: Obsidian
   mass: 1000
-  temperature: 254.71402
+  temperature: 308.149994
   location_x: -1
   location_y: -3
 - element: Granite
   mass: 1840
-  temperature: 237.395187
+  temperature: 308.149994
   location_y: -3
 - element: Granite
   mass: 1840
-  temperature: 237.071121
+  temperature: 308.149994
   location_x: 1
   location_y: -3
 - element: Granite
   mass: 1840
-  temperature: 237.421707
+  temperature: 308.149994
   location_x: 2
   location_y: -3
+- element: Obsidian
+  mass: 1000
+  temperature: 308.149994
+  location_x: -1
+  location_y: 3
+- element: Obsidian
+  mass: 1000
+  temperature: 308.149994
+  location_y: 3
+- element: Granite
+  mass: 1840
+  temperature: 308.149994
+  location_x: 1
+  location_y: 3
+- element: Granite
+  mass: 1840
+  temperature: 308.149994
+  location_x: 2
+  location_y: 3
 otherEntities:
 - id: GeyserGeneric_hot_ethanol
   element: Katairite

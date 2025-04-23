@@ -9,55 +9,55 @@ info:
 cells:
 - element: Obsidian
   mass: 1000
-  temperature: 254.647888
+  temperature: 654.47278
   location_x: -1
   location_y: -3
-- element: Granite
+- element: IgneousRock
   mass: 1840
-  temperature: 237.399506
+  temperature: 637.40967
   location_y: -3
-- element: Granite
-  mass: 1840
-  temperature: 237.071701
+- element: Obsidian
+  mass: 1000
+  temperature: 644.15002
   location_x: 1
   location_y: -3
-- element: Granite
+- element: IgneousRock
   mass: 1840
-  temperature: 237.42392
+  temperature: 637.42871
   location_x: 2
   location_y: -3
 - element: Obsidian
   mass: 1000
-  temperature: 255.056839
+  temperature: 654.97449
   location_x: -2
   location_y: -2
 - element: Obsidian
   mass: 1000
-  temperature: 244.210693
+  temperature: 644.2666
   location_x: -1
   location_y: -2
-- element: Granite
+- element: IgneousRock
   mass: 1840
-  temperature: 233.343124
+  temperature: 633.35938
   location_y: -2
 - element: Obsidian
   mass: 1000
-  temperature: 238.663055
+  temperature: 638.65479
   location_x: 1
   location_y: -2
 - element: Obsidian
   mass: 1000
-  temperature: 243.627563
+  temperature: 643.67126
   location_x: 2
   location_y: -2
 - element: Obsidian
   mass: 1000
-  temperature: 262.428192
+  temperature: 662.49255
   location_x: 3
   location_y: -2
 - element: Obsidian
   mass: 1000
-  temperature: 252.111618
+  temperature: 652.03833
   location_x: -2
   location_y: -1
 - element: Unobtanium
@@ -79,109 +79,109 @@ cells:
   temperature: 1
   location_x: 2
   location_y: -1
-- element: Dirt
+- element: Sand
   mass: 2202.9646
-  temperature: 293.012054
+  temperature: 691.47925
   location_x: 3
   location_y: -1
-- element: Granite
+- element: IgneousRock
   mass: 1840
-  temperature: 237.90979
+  temperature: 638.8844
   location_x: -2
 - element: Iron
-  mass: 850
-  temperature: 1473.15002
+  mass: 400
+  temperature: 657.20679
   location_x: -1
 - element: Obsidian
   mass: 1000
-  temperature: 263.836792
-- element: Granite
+  temperature: 671.96094
+- element: IgneousRock
   mass: 1840
-  temperature: 233.906631
+  temperature: 633.93701
   location_x: 1
-- element: Granite
+- element: IgneousRock
   mass: 1840
-  temperature: 234.003189
+  temperature: 634.03088
   location_x: 2
 - element: Obsidian
   mass: 1000
-  temperature: 262.747009
+  temperature: 662.68005
   location_x: 3
 - element: Obsidian
   mass: 1000
-  temperature: 244.19928
+  temperature: 651.03369
   location_x: -2
   location_y: 1
 - element: Iron
-  mass: 850
-  temperature: 1473.15002
+  mass: 400
+  temperature: 656.047
   location_x: -1
-  location_y: 1
-- element: Iron
-  mass: 850
-  temperature: 1473.15002
   location_y: 1
 - element: Obsidian
   mass: 1000
-  temperature: 239.186005
+  temperature: 644.15002
+  location_y: 1
+- element: Obsidian
+  mass: 1000
+  temperature: 646.18835
   location_x: 1
   location_y: 1
 - element: Obsidian
   mass: 1000
-  temperature: 240.321182
+  temperature: 640.34338
   location_x: 2
   location_y: 1
 - element: Obsidian
   mass: 1000
-  temperature: 253.986694
+  temperature: 653.8606
   location_x: 3
   location_y: 1
-- element: Granite
+- element: IgneousRock
   mass: 1840
-  temperature: 237.968079
+  temperature: 637.97241
   location_x: -2
   location_y: 2
-- element: Granite
+- element: IgneousRock
   mass: 1840
-  temperature: 235.431595
+  temperature: 636.40576
   location_x: -1
   location_y: 2
-- element: Granite
+- element: IgneousRock
   mass: 1840
-  temperature: 235.956238
+  temperature: 636.92639
   location_y: 2
 - element: Obsidian
   mass: 1000
-  temperature: 247.70784
+  temperature: 647.42346
   location_x: 1
   location_y: 2
-- element: Granite
+- element: IgneousRock
   mass: 1840
-  temperature: 236.343338
+  temperature: 636.35437
   location_x: 2
   location_y: 2
-- element: Granite
+- element: IgneousRock
   mass: 1840
-  temperature: 239.087585
+  temperature: 639.09558
   location_x: 3
   location_y: 2
 - element: Obsidian
   mass: 1000
-  temperature: 242.366302
+  temperature: 642.32336
   location_x: -1
   location_y: 3
 - element: Obsidian
   mass: 1000
-  temperature: 242.007416
+  temperature: 641.90698
   location_y: 3
-- element: Granite
+- element: IgneousRock
   mass: 1840
-  temperature: 232.246262
+  temperature: 632.26575
   location_x: 1
   location_y: 3
-- element: Granite
-  mass: 1840
-  temperature: 232.340561
+- element: IgneousRock
+  mass: 1780
+  temperature: 632.34436
   location_x: 2
   location_y: 3
 otherEntities:
