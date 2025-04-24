@@ -1,6 +1,6 @@
 ## Geyser - EthanolGas Vent 乙醇蒸气喷孔
 
-**[[简体中文](..\README.md)]/[English]**
+**[[简体中文](../README.md)]/[English]**
 
 Adding a geyser that erupts with 500℃ EthanolGas. *SpacedOut!* and The Frosty Planet Pack required (but The Frosty Planet Pack is no need to be enabled), you have to enable *SpacedOut!* (although the geyser itself does not depend on *SpacedOut!*, it will not spawn naturally without *SpacedOut!*)
 
