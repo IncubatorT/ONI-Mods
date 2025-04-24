@@ -1,0 +1,26 @@
+[url=https://github.com/IncubatorT/ONI-Mods]Github[/url]
+添加了能够喷出500度气态乙醇的气体喷孔。需要拥有[i]眼冒金星！[/i]和寒霜行星包（但不必在地图生成时启用寒霜行星包），需要启用[i]眼冒金星！[/i]（尽管这个间歇泉本身并不依赖于[i]眼冒金星！[/i]，但不启用[i]眼冒金星！[/i]时此间歇泉将无法自然生成）。
+[h3]生成规则：[/h3]
+所有湿地小行星（52B）中都将确保生成一个，包括原版风格和[i]眼冒金星！[/i]风格的地图。
+除此之外，在[i]眼冒金星！[/i]风格地图的起始或临近小行星的地图底部将尝试生成一个（包括小谷神星和小型星群 - 谷神星地幔）。不会在原版风格地图的起始或临近小行星自然生成。
+note：与其他任何修改了地图生成.yaml配置文件的模组同时启用时可能无法自然生成，需要手动修改.yaml文件，具体方法参见[url=https://github.com/IncubatorT/ONI-Mods]github[/url]或本地mods文件夹中的README文件。
+[h3]间歇泉原始参数配置：[/h3]
+活跃期每周期平均产率：180~360kg
+温度：500℃
+其他参数使用默认参数
+[h3]地质调谐仪配置：[/h3]
+每次使用400kg精炼磷，持续4500秒间歇泉喷发时间
+产量+20％，温度+50℃，最多5次
+-----------------------------
+Adding a geyser that erupts with 500℃ EthanolGas. [i]SpacedOut![/i] and The Frosty Planet Pack required (but The Frosty Planet Pack is no need to be enabled), you have to enable [i]SpacedOut![/i](although the geyser itself does not depend on [i]SpacedOut![/i], it will not spawn naturally without [i]SpacedOut![/i]).
+[h3]Spawning Rules:[/h3]
+One will be guaranteed to spawn on all MarshyMoonlet (52B), including both Vanilla style and [i]SpacedOut![/i] style maps.
+In addition, in [i]SpacedOut![/i] style, it will try to spawn one on the bottom of the map at the Start or Inner (Including Ceres and ShatteredCeres([i]SpacedOut![/i])), but will not in Vanilla style.
+Note: When enabled simultaneously with any other mod that modifies the map generation .yaml configuration file, it may not be generated naturally. You need to manually modify the .yaml file. For specific methods, see [url=https://github.com/IncubatorT/ONI-Mods]github[/url] or the README file in your local mods folder.
+[h3] Geyser original parameter configuration: [/h3]
+Rate per cycle during active period: 180~360kg
+Temperature: 500℃
+Other parameters use default parameters
+[h3] GeoTuner configuration: [/h3]
+Use 400kg refined Phosphorus each time, lasts for 4500 seconds
+output +20%, temperature +50℃, 5 times max
