@@ -10,17 +10,20 @@ One will be guaranteed to spawn on all MarshyMoonlet (52B), including both Vanil
 
 In addition, in *SpacedOut!* style, it will try to spawn one on the bottom of the map at the Start or Inner (Including Ceres and ShatteredCeres(*SpacedOut!*)), but will not in Vanilla style.
 
-Note: When enabled simultaneously with any other mod that modifies the map generation .yaml configuration file, it may not be generated naturally. You need to manually modify the .yaml file. See below.
+Note: When enabled simultaneously with any other mod that modifies the map generation .yaml configuration file, it may not be generated naturally. You need to manually modify the .yaml file. For specific methods, see below.
 
 ### Geyser original parameter configuration:
 
 Rate per cycle during active period: 180~360kg
+
 Temperature: 500℃
+
 Other parameters use default parameters
 
 ### GeoTuner configuration:
 
 Use 400kg refined Phosphorus each time, lasts for 4500 seconds
+
 output +20%, temperature +50℃, 5 times max
 
 ### Use with other mods that modify the map generation .yaml configuration files：
