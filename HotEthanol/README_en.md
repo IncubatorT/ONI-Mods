@@ -40,7 +40,7 @@ You need to merge the world generation rules provided by multiple mods that modi
   
   There may be multiple files in this directory corresponding to different maps. You need to pick out the .yaml file corresponding to the map you want to play.
 
-- Then append the following content to the end of this file. Note that the indentation needs to be consistent with the original file (in the "worldTemplateRules:" field, this field will be written at the end of the file in the official default file)
+- Then append the following content to the end of this file. Note that the indentation needs to be consistent with the original file (under the "worldTemplateRules:" field, this field will be written at the end of the file in the official default file)
 
 - ```
     # Geyser - HotEthanol
