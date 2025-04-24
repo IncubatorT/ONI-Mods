@@ -4,24 +4,24 @@
 
 Adding a geyser that erupts with 500℃ EthanolGas. *SpacedOut!* and The Frosty Planet Pack required (but The Frosty Planet Pack is no need to be enabled), you have to enable *SpacedOut!* (although the geyser itself does not depend on *SpacedOut!*, it will not spawn naturally without *SpacedOut!*)
 
-##### Spawning Rules:
+#### Spawning Rules:
 
 One will be guaranteed to spawn on all MarshyMoonlet (52B), including both Vanilla style and *SpacedOut!* style maps.
 In addition, in *SpacedOut!* style, it will try to spawn one on the bottom of the map at the Start or Inner (Including Ceres and ShatteredCeres(*SpacedOut!*)), but will not in Vanilla style.
 Note: When enabled simultaneously with any other mod that modifies the map generation .yaml configuration file, it may not be generated naturally. You need to manually modify the .yaml file. See below.
 
-##### Geyser original parameter configuration:
+#### Geyser original parameter configuration:
 
 Rate per cycle during active period: 180~360kg
 Temperature: 500℃
 Other parameters use default parameters
 
-##### GeoTuner configuration:
+#### GeoTuner configuration:
 
 Use 400kg refined Phosphorus each time, lasts for 4500 seconds
 output +20%, temperature +50℃, 5 times max
 
-##### Use with other mods that modify the map generation .yaml configuration files：
+#### Use with other mods that modify the map generation .yaml configuration files：
 
 Using this geyser with other mods that modify the .yaml configuration files in the worldgen directory may prevent it from spawning naturally (the geyser data will be loaded as usual, but it will not spawn naturally).
 
