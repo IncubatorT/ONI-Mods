@@ -7,6 +7,7 @@ Adding a geyser that erupts with 500℃ EthanolGas. *SpacedOut!* and The Frosty 
 ### Spawning Rules:
 
 One will be guaranteed to spawn on all MarshyMoonlet (52B), including both Vanilla style and *SpacedOut!* style maps.
+
 In addition, in *SpacedOut!* style, it will try to spawn one on the bottom of the map at the Start or Inner (Including Ceres and ShatteredCeres(*SpacedOut!*)), but will not in Vanilla style.
 Note: When enabled simultaneously with any other mod that modifies the map generation .yaml configuration file, it may not be generated naturally. You need to manually modify the .yaml file. See below.
 
